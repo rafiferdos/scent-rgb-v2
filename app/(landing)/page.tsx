@@ -2,7 +2,6 @@
 import MiniScent from "@/public/mini-perfume.png";
 import ScentImage from "@/public/scent.png";
 import SmallScent from "@/public/small-perfume.png";
-import { Spacer } from "@nextui-org/react";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 // interface Scent {
@@ -78,9 +77,8 @@ const Landing = () => {
         </h1>
       </div>
 
-      <Spacer y={10} />
       <div className="flex">
-        <div className="w-1/2 p-12 flex flex-col justify-center">
+        <div className="w-1/2 flex flex-col justify-center">
           <div className="space-y-6 px-12 rounded-3xl backdrop-blur-md bg-white/5 py-8">
             <h1 className="text-2xl font-bold">
               Based on the perfumes you love (and those you don&apos;t),
