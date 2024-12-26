@@ -20,7 +20,7 @@ export default function NavbarTop() {
       isBordered
       isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
-      className="bg-[#08014D]"
+      className="bg-[#08014D] text-white"
     >
       <NavbarContent className="sm:hidden" justify="start">
         <NavbarMenuToggle
@@ -30,13 +30,13 @@ export default function NavbarTop() {
 
       <NavbarContent className="sm:hidden pr-3" justify="center">
         <NavbarBrand>
-          <Image src={logo} alt="ACME" width={100} height={100} />
+          <Image src={logo} alt="ACME" width={100} height={100} />™
         </NavbarBrand>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarBrand>
-          <Image src={logo} alt="ACME" width={100} height={100} />
+          <Image src={logo} alt="ACME" width={100} height={100} />™
         </NavbarBrand>
       </NavbarContent>
 
