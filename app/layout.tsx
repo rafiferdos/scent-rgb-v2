@@ -30,11 +30,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <NavbarTop />
-        <Spacer y={10} />
+<Providers
         {children}
-        <Spacer y={10} />
-        <Footer />
       </body>
     </html>
   );
