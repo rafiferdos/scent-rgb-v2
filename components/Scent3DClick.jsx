@@ -18,13 +18,13 @@ export default function Scent3DClick({ setScent3DClick }) {
 
   useEffect(() => {
     const getRandomPosition = () => {
-      const randomX = Math.floor(Math.random() * 360); // Random X between 0 and 90% of the container width
-      const randomY = Math.floor(Math.random() * 360); // Random Y between 0 and 90% of the container height
-      return { left: `${randomX}%`, top: `${randomY}%` };
+      const randomX = Math.floor(Math.random() * 160); // Random X between 0 and 90% of the container width
+      const randomY = Math.floor(Math.random() * 160); // Random Y between 0 and 90% of the container height
+      return { left: `${randomX }%`, top: `${randomY}%` };
     };
 
     // Generate 10 random positions
-    const randomPositions = Array.from({ length: 15 }, () => getRandomPosition());
+    const randomPositions = Array.from({ length: 20 }, () => getRandomPosition());
     setPositions(randomPositions);
   }, []);
   return (
