@@ -1,0 +1,7 @@
+.perspective-container:hover .relative {
+    transform: 
+      rotateY(45deg) 
+      rotateX(35deg) 
+      rotateZ(10deg); /* Adding a slight Z-axis rotation for extra depth */
+  }
+  
