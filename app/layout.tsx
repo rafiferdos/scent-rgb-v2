@@ -1,3 +1,4 @@
+'use client'
 import Footer from "@/components/Footer";
 import NavbarTop from "@/components/Navbar";
 import { Spacer } from "@nextui-org/react";
