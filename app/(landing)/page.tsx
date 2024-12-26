@@ -71,7 +71,7 @@ const Landing = () => {
   }, []);
   return (
     <div className="min-h-screen max-w-7xl mx-auto">
-      <div className="max-w-4xl p-16">
+      <div className="max-w-4xl p-16 mx-auto">
         <h1 className="text-center text-4xl font-bold">
           Discover Your Signature Scent Using Our Functional Benefit
           Classification Map
