@@ -24,7 +24,7 @@ export default function Scent3DClick({ setScent3DClick }) {
     };
 
     // Generate 10 random positions
-    const randomPositions = Array.from({ length: 20 }, () => getRandomPosition());
+    const randomPositions = Array.from({ length: 10 }, () => getRandomPosition());
     setPositions(randomPositions);
   }, []);
   return (
