@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "cross-env NODE_ENV=production tsx index.ts",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
